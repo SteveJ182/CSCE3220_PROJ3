@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSCE3220_PROJ3</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="save_button">Save</string>
+    <string name="image_description">IMGDescription</string>
+</resources>

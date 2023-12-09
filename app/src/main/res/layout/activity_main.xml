@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView to display images -->
+
+    <!-- Button to show the previous image -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:layout_above="@id/buttonNext"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="9dp"
+        android:contentDescription="@string/image_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/story_image6"
+        tools:srcCompat="@drawable/story_image6" />
+
+    <Button
+        android:id="@+id/buttonPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/previous_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to show the next image -->
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/next_button" />
+
+    <!-- Button to save the image -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/save_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
